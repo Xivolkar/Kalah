@@ -52,7 +52,7 @@ public class GameProvider {
         }
 
         try {
-            game.play(pitId, new User());
+            game.play(pitId - 1, new User());
         } catch (InvalidOperationException ioe){
             return new ResponseEntity(ioe, HttpStatus.BAD_REQUEST);
         }

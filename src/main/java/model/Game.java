@@ -77,7 +77,7 @@ public class Game {
         int currentIndex = pitId + 1;
 
         while(temp != 0){
-            if(isCurrentIndexPit(currentIndex) && (currentIndex + 1) != getCurrentPlayerPitIndex()){
+            if(isCurrentIndexPit(currentIndex) && (currentIndex) != getCurrentPlayerPitIndex()){
                 continue;
             }
 
